@@ -10,6 +10,7 @@ import Contact from './components/Main/Contact.js';
 
 
 
+
 function App() {
   return (
     <>
@@ -18,7 +19,7 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/list' component={List} />
-          <Route path='/order' component={Order} />
+          <Route path='/Order' component={Order} />
           <Route path='/contact' component={Contact} />
         </Switch>
       </Router>

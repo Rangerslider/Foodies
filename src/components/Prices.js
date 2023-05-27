@@ -79,6 +79,7 @@ const Prices = () => {
               <p className="price_rs">$22.00</p>
             </div>
           </div>
+          
 
           <div className="col-4">
             <div className="price">
