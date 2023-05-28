@@ -50,8 +50,11 @@ const Home = () => {
           filterItems={filterItems}
         />
         <Packages items={packagesItems} />
+        
+
       </section>
     </main>
+
   );
 };
 

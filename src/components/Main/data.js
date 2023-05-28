@@ -163,7 +163,7 @@ const Packages= [
       },
       {
         id: 21,
-        title: 'mocktel juice',
+        title: 'Lemondy',
         category: 'drinks',
         price: 30.99,
         img: '../data-pic/item-18.jpeg',

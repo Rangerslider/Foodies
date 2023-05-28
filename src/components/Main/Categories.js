@@ -14,7 +14,10 @@ const Categories = ({ categories, filterItems, activeCategory }) => {
             onClick={() => filterItems(category)}
           >
             {category}
+
           </button>
+          
+          
         );
       })}
     </div>

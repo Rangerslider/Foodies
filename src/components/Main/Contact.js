@@ -5,10 +5,6 @@ import './Contact.css';
 
 
 
-
-
-
-
 function Contact() {
   return (
     <>
@@ -34,3 +30,6 @@ function Contact() {
 }
 
 export default Contact;
+
+
+
