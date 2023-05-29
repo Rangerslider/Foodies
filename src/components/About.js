@@ -14,7 +14,7 @@ const About = () => {
               sequitur mutationem consuetudium lectorum.
             </p>
             <div className="about__btn">
-              <a href="./" className="btn btn-smart">
+              <a href="./Contact" className="btn btn-smart">
                 READ MORE
               </a>
             </div>
