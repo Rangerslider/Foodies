@@ -19,7 +19,7 @@ const Menu = () => {
               sequitur mutationem consuetudium lectorum.
             </p>
             <div className="about__btn">
-              <a href="./" className="btn btn-smart">
+              <a href="./List" className="btn btn-smart">
                 VIEW MORE
               </a>
             </div>

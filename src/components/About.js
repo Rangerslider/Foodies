@@ -7,7 +7,7 @@ const About = () => {
         <div className="row">
           <div className="col-6 p-25">
             <h3>About Us</h3>
-            <h1>WELCOME TO RANGER CAFEJER</h1>
+            <h1>WELCOME TO RANGER JOYCAFE</h1>
             <p>
               Investigationes demonstraverunt lectores legere me lius quod ii
               legunt saepius. Claritas est etiam processus dynaus, quise

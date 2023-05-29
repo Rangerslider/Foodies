@@ -8,13 +8,13 @@ const Header = () => {
         <div className="container">
           <div className="banner__text">
             <h3>Get Fresh Food</h3>
-            <h1>RANGER CAFEJER</h1>
+            <h1>RANGER JOYCAFE</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
               minus ut mollitia error molestiae quia.
             </p>
             <div className="banner__btn">
-              <a href="" className="btn btn-smart">
+              <a href="./Order" className="btn btn-smart">
                 DEVLERY NOW
               </a>
             </div>

@@ -11,7 +11,7 @@ export default function Basket(props) {
     <aside className="block col-1">
       <h2>Cart Items</h2>
       <div>
-        {cartItems.length === 0 && <div>Cart is empty</div>}
+        {cartItems.length === 0 && <div>Cart is empty Nothing  Added!!</div>}
         {cartItems.map((item) => (
           <div key={item.id} className="row">
             <div className="col-2">{item.name}</div>
@@ -58,7 +58,7 @@ export default function Basket(props) {
             </div>
             <hr />
             <div className="row">
-              <button onClick={() => alert('Implement Checkout!')}>
+              <button onClick={() => alert('Successfully Checkout!')}>
                 Checkout
               </button>
             </div>
