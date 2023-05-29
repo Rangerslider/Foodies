@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navber.css';
-// import "../App.css";
+
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -29,7 +29,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='./img.jpg' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             Nuri
             <i class='fa-solid fa-burger'/>
           </Link>
@@ -66,3 +66,5 @@ function Navbar() {
 }
 
 export default Navbar;
+
+
