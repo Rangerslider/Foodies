@@ -1,7 +1,7 @@
 import React from "react";
 import "../../../styles/product-card.css";
 import { Link } from "react-router-dom";
-// If you need to create higher-order functions like you do in getAllProducts() returning another function you need to call that function and pass dispatch as the first argument.
+// If i need create a higher-order functions and returning another function then to call that function and pass dispatch as the first argument it works as like a increment and decrement
 import { useDispatch } from "react-redux";
 import { cartActions } from "../../../store/shopping-cart/cartSlice";
 
