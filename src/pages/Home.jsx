@@ -28,7 +28,7 @@ import whyImg from "../assets/images/location.png";
 
 import networkImg from "../assets/images/network.png";
 
-import TestimonialSlider from "../components/UI/slider/TestimonialSlider.jsx";
+// import TestimonialSlider from "../components/UI/slider/TestimonialSlider.jsx";
 
 const featureData = [
   {
@@ -332,8 +332,6 @@ const Home = () => {
                   Distinctio quasi qui minus quos sit perspiciatis inventore
                   quis provident placeat fugiat!
                 </p>
-
-                <TestimonialSlider />
               </div>
             </Col>
 
