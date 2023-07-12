@@ -1,3 +1,4 @@
+// ekhane cart product jeta parent page cart sei cart product er reviwe or details infoirmation er jonne ai child page create  
 import React, { useState, useEffect } from "react";
 import products from "../assets/fake-data/products";
 import { useParams } from "react-router-dom";
