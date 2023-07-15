@@ -1,4 +1,4 @@
-import sliderImg01 from "../images/background.png";
+import sliderImg01 from "../images/burger1.png";
 import sliderImg02 from "../images/chicken1.png";
 import sliderImg4 from "../images/coffe2.png";
 
