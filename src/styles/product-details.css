@@ -40,10 +40,19 @@
 .tabs h6 {
     cursor: pointer;
 }
+.tab__content {
+    padding: 30px 0px;
+}
 
 .tab__active {
     color: #df2020;
 }
+
+.tab__content p {
+    line-height: 30px;
+    color: #212245b6;
+}
+
 
 .from {
     width: 60%;
@@ -61,7 +70,7 @@
     margin-bottom: 30px;
 }
 
-.from__group input
+.from__group input,
 .from__group textarea {
     width: 100%;
     background: transparent;
@@ -70,21 +79,21 @@
     border-bottom: 1px solid #2122454c;
 }
 
-.from__group input:focus
+.from__group input:focus,
 .from__group textarea:focus {
     outline: none;
 }
 
-.user__name{
+.user__name {
     font-weight: 600;
     color: #212245;
 }
 
-.user__email{
+.user__email {
     font-size: 0.8rem;
 }
 
-.feedback__text{
+.feedback__text {
     color:#212245b6 ;
 }
 
