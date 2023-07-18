@@ -7,7 +7,7 @@ import "../styles/hero-section.css";
 // import { Link } from "react-router-dom";
 import Category from "../components/UI/category/Category.jsx";
 import "../styles/home.css";
-import featureImg01 from "../assets/images/delivery-boy.png";
+import featureImg01 from "../assets/images/delivery-man.png";
 import featureImg02 from "../assets/images/food-service.png";
 import featureImg03 from "../assets/images/food-serving.png";
 import products from "../assets/fake-data/products.js";
