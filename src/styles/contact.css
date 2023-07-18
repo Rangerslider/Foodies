@@ -1,0 +1,38 @@
+
+.contact .row form {
+  flex: 1 1 45rem;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.contact .row form h3 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: #61dafb;
+}
+  
+.contact .row form .inputBox {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background: #ffffff;
+  border: 0.1rem solid #ffffff;
+  justify-content: center;
+}
+
+.contact .row form .inputBox span {
+  color: #61dafb;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+.contact .row form .inputBox input {
+  width: 50%;
+  background: transparent;
+  padding: 7px 25px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+
+}
