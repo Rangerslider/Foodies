@@ -15,9 +15,13 @@ import foodCategoryImg01 from "../assets/images/hamburger.png";
 import foodCategoryImg02 from "../assets/images/pizza.png";
 import foodCategoryImg03 from "../assets/images/bread.png";
 import ProductCard from "../components/UI/product-card/ProductCard.jsx";
-import whyImg from "../assets/images/location.png";
-import networkImg from "../assets/images/network.png";
+// import whyImg from "../assets/images/location.png";
+import whyImg from "../assets/images/banner-02.jpg";
+// import networkImg from "../assets/images/network.png";
+import networkImg from "../assets/images/img-5.png";
+
 import HeroSlider from "../components/UI/hero-slider/HeroSlider.jsx";
+
 
 
 
