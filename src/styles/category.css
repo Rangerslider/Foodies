@@ -5,6 +5,14 @@
     cursor: pointer;
     transition: 0.4s;
   }
+  .category__img img {
+    display: block;
+    width: 100px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
   
   .category__item:hover {
     transform: translateY(-15px);
