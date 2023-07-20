@@ -33,7 +33,7 @@ const ProductCard = (props) => {
         <div className=" d-flex align-items-center justify-content-between ">
           <span className="product__price">${price}</span>
           <button className="addTOCart__btn" onClick={addToCart}>
-            Add to Cart
+            <h4> + </h4>
           </button>
         </div>
       </div>

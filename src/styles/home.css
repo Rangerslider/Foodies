@@ -13,29 +13,72 @@
   .feature__item p {
     color: #777;
   }
-  
-  .food__category {
-    background: #2db0d465;
+
+  .food__category-wp{
+    margin-bottom: 80px;
+  }
+  .food__category ul {
+    /* background: #2db0d400;
     text-align: center;
     margin-top: 30px;
     padding: 20px 0px;
-    border-radius: 8px;
+    border-radius: 8px; */
+    padding: 10px;
+    display: inline-block;
+    border-radius: 60px;
+    background: linear-gradient(145deg, #ececec, #ffffff);
+    box-shadow: 28px 28px 55px #d4d4d4, -28px -28px 55px #ffffff;;
+    position: relative;
+    z-index: 2;
   }
+
+  .food__category ul li, .food__category ul .filter-active {
+    display: inline-flex;
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: normal;
+    cursor: pointer;
+    padding: 10px 26px;
+    border-radius: 30px;
+    transition: 0.3s;
+    justify-content: center;
+    align-items: center;
+}
   
   .food__category button {
-    border: none;
+    /*border: none;
     outline: none;
     padding: 7px 20px;
     background: transparent;
     color: #fff;
-  }
+    */display: inline-flex;
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: normal;
+    cursor: pointer;
+    padding: 10px 26px;
+    border-radius: 30px;
+    transition: 0.3s;
+    justify-content: center;
+    align-items: center;
+    border-color:#61dafb;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
   
   .food__category button img {
     width: 20px;
-    height: 20px;
+    height: 20px; 
+    margin-right: 10px;
+    position: relative;
+    top: 1px;
   }
   
   .foodBtnActive {
+    /* nicher ta comment out korle je button present oita broder less thakbe */
+    /* border: #61dafb; */
     background: #fff !important;
     border-radius: 5px;
     color: #61dafb !important;

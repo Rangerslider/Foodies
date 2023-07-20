@@ -22,12 +22,25 @@
   }
   
   .menu a {
-    font-weight: 600;
+    /*font-weight: 600;
     font-size: 1rem;
     color: #212245;
+    transition: 0.3s;*/
+    width: 80px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 30px;
+    position: relative;
+    margin-left: -15px;
     transition: 0.3s;
-  }
-  
+    box-shadow: inset 6px 6px 7px #dadada, inset -6px -6px 7px #ffffff;
+    align-items: center;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
   .menu a:hover {
     color: #61dafb;
   }
@@ -42,6 +55,20 @@
     font-size: 1.3rem;
     color: #212245;
     cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 30px;
+    position: relative;
+    margin-left: 10px;
+    transition: 0.3s;
+    box-shadow: inset 6px 6px 7px #dadada, inset -6px -6px 7px #ffffff;
+    align-items: center;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
   }
   
   .cart__icon {

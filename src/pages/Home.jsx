@@ -15,7 +15,7 @@ import foodCategoryImg03 from "../assets/images/bread.png";
 import ProductCard from "../components/UI/product-card/ProductCard.jsx";
 import whyImg from "../assets/images/banner-02.jpg";
 import networkImg from "../assets/images/img-5.png";
-import heroImg from "../assets/images/chicken4.png";
+import aboutImg from "../assets/pic/bt1.jpg";
 // import HeroSlider from "../components/UI/hero-slider/HeroSlider.jsx";
 
 
@@ -133,17 +133,13 @@ const Home = () => {
 
             <Col lg="6" md="6">
               <div className="hero__img">
-                <img src={heroImg} alt="hero-img" className="w-100" />
+                {/* -----using better ui that's why change here ---  */}
+                {/* <img src={heroImg}  alt="hero-img" className="w-100" />  */} 
               </div>
             </Col>
           </Row>
         </Container>
       </section>
-      {/* <section>
-        <Container>
-        <HeroSlider />
-        </Container>
-        </section> */}
 
       <section className="pt-0">
         <Category />
@@ -189,7 +185,39 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center">
-              <h2>Popular Foods</h2>
+              <h3 className="about-btn">ABOUT US</h3><br /><br />
+              <h2 className="feature__title">Discover Our</h2>
+              <h2 className="feature__title">
+                Awsome <span> Restaurant Story</span>
+              </h2>
+              <p className="mb-1 mt-4 feature__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+                officiis?
+              </p>
+              <p className="feature__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, eius.{" "}<br /><br />
+              </p>
+            </Col>
+            <Col lg="6" md="6">
+              <div className="about__img">
+                <img src={aboutImg}  alt="about-img" className="w-100" />
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+
+
+      <section>
+        <Container>
+          <Row>
+            <Col lg="12" className="text-center">
+            <h3 className="about-btn">Our Menu</h3><br /><br />
+            <h2 className="feature__title">Wake Up Early,</h2>
+              <h2 className="feature__title">
+              Eat Fresh <span> & Healthy</span>
+              </h2><br /><br />
             </Col>
 
             <Col lg="12">
