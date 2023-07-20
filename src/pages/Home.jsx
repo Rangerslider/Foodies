@@ -12,6 +12,8 @@ import products from "../assets/fake-data/products.js";
 import foodCategoryImg01 from "../assets/images/hamburger.png";
 import foodCategoryImg02 from "../assets/images/pizza.png";
 import foodCategoryImg03 from "../assets/images/bread.png";
+import foodCategoryImg04 from "../assets/pic/6.png";
+import foodCategoryImg05 from "../assets/pic/bt4.jpg";
 import ProductCard from "../components/UI/product-card/ProductCard.jsx";
 import whyImg from "../assets/images/banner-02.jpg";
 import networkImg from "../assets/images/img-5.png";
@@ -70,6 +72,21 @@ const Home = () => {
     if (category === "PIZZA") {
       const filteredProducts = products.filter(
         (item) => item.category === "Pizza"
+      );
+
+      setAllProducts(filteredProducts);
+    }
+
+    if (category === "LUNCH") {
+      const filteredProducts = products.filter(
+        (item) => item.category === "Lunch"
+      );
+
+      setAllProducts(filteredProducts);
+    }
+    if (category === "BREAKFAST") {
+      const filteredProducts = products.filter(
+        (item) => item.category === "Breakfast"
       );
 
       setAllProducts(filteredProducts);
@@ -230,6 +247,17 @@ const Home = () => {
                 >
                   All
                 </button>
+
+                <button
+                  className={`d-flex align-items-center gap-2 ${
+                    category === "BREAKFAST" ? "foodBtnActive" : ""
+                  } `}
+                  onClick={() => setCategory("BREAKFAST")}
+                >
+                  <img src={foodCategoryImg05} alt="" />
+                  Breakfast
+                </button>
+
                 <button
                   className={`d-flex align-items-center gap-2 ${
                     category === "BURGER" ? "foodBtnActive" : ""
@@ -248,6 +276,16 @@ const Home = () => {
                 >
                   <img src={foodCategoryImg02} alt="" />
                   Pizza
+                </button>
+
+                <button
+                  className={`d-flex align-items-center gap-2 ${
+                    category === "LUNCH" ? "foodBtnActive" : ""
+                  } `}
+                  onClick={() => setCategory("LUNCH")}
+                >
+                  <img src={foodCategoryImg04} alt="" />
+                  Lunch
                 </button>
 
                 <button

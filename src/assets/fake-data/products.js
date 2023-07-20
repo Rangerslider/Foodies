@@ -23,33 +23,57 @@ import product_06_image_01 from "../images/bread(1).png";
 import product_06_image_02 from "../images/bread(2).png";
 import product_06_image_03 from "../images/bread(3).png";
 
+import product_07_image_01 from "../pic/1.png";
+import product_07_image_02 from "../pic/2.png";
+import product_07_image_03 from "../pic/6.png";
+
+import product_08_image_01 from "../pic/3.png";
+import product_08_image_02 from "../pic/bt4.jpg";
+import product_08_image_03 from "../pic/bt1.jpg";
+
+import product_09_image_01 from "../pic/4.png";
+import product_09_image_02 from "../pic/3.png";
+import product_09_image_03 from "../pic/5.png";
+
+
 const products = [
   {
-    id: "01",
-    title: "Chicken Burger",
-    price: 24.0,
-    image01: product_01_image_01,
-    image02: product_01_image_02,
-    image03: product_01_image_03,
-    category: "Burger",
+  id: "01",
+  title: "Roasted Meat",
+  price: 24.0,
+  image01: product_07_image_01,
+  image02: product_07_image_02,
+  image03: product_07_image_03,
+  category: "Lunch",
 
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque. ",
+  desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque. ",
   },
 
   {
     id: "02",
-    title: "Vegetarian Pizza",
+    title: "Thai Pasta",
+    price: 24.0,
+    image01: product_08_image_01,
+    image02: product_08_image_02,
+    image03: product_08_image_03,
+    category: "Breakfast",
+
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque. ",
+  },
+  {
+    id: "03",
+    title: "Maxican Pasta",
     price: 115.0,
-    image01: product_02_image_01,
-    image02: product_02_image_02,
-    image03: product_02_image_03,
-    category: "Pizza",
+    image01: product_09_image_01,
+    image02: product_09_image_02,
+    image03: product_09_image_03,
+    category: "Breakfast",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
   {
-    id: "03",
+    id: "04",
     title: "Double Margherita",
     price: 110.0,
     image01: product_03_image_01,
@@ -61,7 +85,7 @@ const products = [
   },
 
   {
-    id: "04",
+    id: "05",
     title: "Maxican Green Wave",
     price: 110.0,
     image01: product_04_image_01,
@@ -73,7 +97,7 @@ const products = [
   },
 
   {
-    id: "05",
+    id: "06",
     title: "Cheese Burger",
     price: 24.0,
     image01: product_05_image_01,
@@ -84,7 +108,7 @@ const products = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
   {
-    id: "06",
+    id: "07",
     title: "Royal Cheese Burger",
     price: 24.0,
     image01: product_01_image_01,
@@ -96,7 +120,7 @@ const products = [
   },
 
   {
-    id: "07",
+    id: "08",
     title: "Seafood Pizza",
     price: 115.0,
     image01: product_02_image_02,
@@ -108,7 +132,7 @@ const products = [
   },
 
   {
-    id: "08",
+    id: "09",
     title: "Thin Cheese Pizza",
     price: 110.0,
     image01: product_03_image_02,
@@ -120,7 +144,7 @@ const products = [
   },
 
   {
-    id: "09",
+    id: "10",
     title: "Pizza With Mushroom",
     price: 110.0,
     image01: product_04_image_02,
@@ -132,7 +156,7 @@ const products = [
   },
 
   {
-    id: "10",
+    id: "11",
     title: "Classic Hamburger",
     price: 24.0,
     image01: product_05_image_02,
@@ -144,7 +168,7 @@ const products = [
   },
 
   {
-    id: "11",
+    id: "12",
     title: "Crunchy Bread ",
     price: 35.0,
     image01: product_06_image_01,
@@ -156,7 +180,7 @@ const products = [
   },
 
   {
-    id: "12",
+    id: "13",
     title: "Delicious Bread ",
     price: 35.0,
     image01: product_06_image_02,
@@ -168,13 +192,35 @@ const products = [
   },
 
   {
-    id: "13",
+    id: "14",
     title: "Loaf Bread ",
     price: 35.0,
     image01: product_06_image_03,
     image02: product_06_image_02,
     image03: product_06_image_03,
     category: "Bread",
+
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+  },
+  {
+    id: "15",
+    title: "Chicken Burger",
+    price: 24.0,
+    image01: product_01_image_01,
+    image02: product_01_image_02,
+    image03: product_01_image_03,
+    category: "Burger",
+
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque. ",
+  },
+  {
+    id: "16",
+    title: "Vegetarian Pizza",
+    price: 115.0,
+    image01: product_02_image_01,
+    image02: product_02_image_02,
+    image03: product_02_image_03,
+    category: "Pizza",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },

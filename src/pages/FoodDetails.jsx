@@ -99,7 +99,7 @@ return (
                 </p>
 
                 <button onClick={addItem} className="addTOCart__btn">
-                    Add to Cart
+                <h4> + </h4>
                 </button>
                 </div>
             </Col>
