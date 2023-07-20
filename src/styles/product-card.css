@@ -127,10 +127,9 @@ transform: scale(1.03);
     font-size: 0.9rem;
   }
 }
-
 .addTOCart__btn {
-  width: 40px;
-  height: 40px;
+  width: 100px;
+  height: 42px;
   border: none;
   border-radius: 10px;
   color: #ffffff;

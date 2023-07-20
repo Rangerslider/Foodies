@@ -10,29 +10,34 @@
   .btn:hover {
     color: #fff;
   }
-  
-  @media only screen and (max-width: 992px) {
-    .slider__content h2 {
-      font-size: 1.5rem;
-    }
-  
-    .slider__content p {
-      font-size: 0.8rem;
-    }
-  
-    .slider__content .btn {
-      padding: 5px 20px;
-      font-size: 0.7rem;
-    }
+  .review__text {
+    color: #777;
+    line-height: 30px;
+    margin: 40px 0px;
   }
   
-  @media only screen and (max-width: 767px) {
-    .slider__content {
-      padding-left: 0;
+  .slider__content img {
+     width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover; 
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 9px 9px 18px rgb(194 194 194 /0.5), -9px -9px 18px rgb(255 255 255 / 0.5);
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .review__text {
+      font-size: 0.8rem;
+      margin: 20px 0px;
     }
   
-    .slick-prev,
-    .slick-next {
-      display: none !important;
+    .slider__content img {
+      width: 35px;
+      height: 35px;
+    }
+  
+    .slider__content h6 {
+      font-size: 0.8rem;
     }
   }

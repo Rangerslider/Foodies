@@ -18,7 +18,9 @@ import ProductCard from "../components/UI/product-card/ProductCard.jsx";
 import whyImg from "../assets/images/banner-02.jpg";
 import networkImg from "../assets/images/img-5.png";
 import aboutImg from "../assets/pic/bt1.jpg";
-// import HeroSlider from "../components/UI/hero-slider/HeroSlider.jsx";
+import style from "../assets/pic/11.png";
+import style1 from "../assets/pic/sushi.png";
+import TestimonialSlider from "../components/UI/hero-slider/TestimonialSlider.jsx";
 
 
 
@@ -309,17 +311,68 @@ const Home = () => {
         </Container>
       </section>
 
+      <section class="two-col-sec section">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5">
+                            <div class="sec-img mt-5">
+                                <img src={style}  alt="style-img" className="w-100" /> 
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="sec-text">
+                                <h2 class="xxl-title">Chicken Pepperoni</h2>
+                                <p>This is Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolores
+                                    eligendi earum eveniet soluta officiis asperiores repellat, eum praesentium nihil
+                                    totam. Non ipsa expedita repellat atque mollitia praesentium assumenda quo
+                                    distinctio excepturi nobis tenetur, cum ab vitae fugiat hic aspernatur? Quos
+                                    laboriosam, repudiandae exercitationem atque a excepturi vel. Voluptas, ipsa.</p>
+                                <p>This is Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugit laborum
+                                    voluptas magnam sed ad illum? Minus officiis quod deserunt.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="two-col-sec section pt-0">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 order-lg-1 order-2">
+                            <div class="sec-text">
+                                <h2 class="xxl-title">Shushi Soseges</h2>
+                                <p>This is Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolores
+                                    eligendi earum eveniet soluta officiis asperiores repellat, eum praesentium nihil
+                                    totam. Non ipsa expedita repellat atque mollitia praesentium assumenda quo
+                                    distinctio excepturi nobis tenetur, cum ab vitae fugiat hic aspernatur? Quos
+                                    laboriosam, repudiandae exercitationem atque a excepturi vel. Voluptas, ipsa.</p>
+                                <p>This is Lorem ipsum dolor sit amet consectetur adipisicing elit. At fugit laborum
+                                    voluptas magnam sed ad illum? Minus officiis quod deserunt.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 order-lg-2 order-1">
+                            <div class="sec-img">
+                            <img src={style1}  alt="style1-img" className="w-100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
       <section className="why__choose-us">
         <Container>
           <Row>
             <Col lg="6" md="6">
+            <div class="why__img">
               <img src={whyImg} alt="why-tasty-treat" className="w-100" />
+              </div>
             </Col>
 
             <Col lg="6" md="6">
               <div className="why__tasty-treat">
                 <h2 className="tasty__treat-title mb-4">
-                  Why <span>Tasty Treat?</span>
+                    Why <span>Tasty Treat?</span>
                 </h2>
                 <p className="tasty__treat-desc">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -397,10 +450,13 @@ const Home = () => {
                   Distinctio quasi qui minus quos sit perspiciatis inventore
                   quis provident placeat fugiat!
                 </p>
+                <TestimonialSlider />
               </div>
             </Col>
             <Col lg="6" md="6">
+            <div class="why__img">
               <img src={networkImg} alt="testimonial-img" className="w-100" />
+              </div>
             </Col>
           </Row>
         </Container>
