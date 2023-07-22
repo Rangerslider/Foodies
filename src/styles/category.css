@@ -1,9 +1,13 @@
 .category__item {
-    background: #61dafb63;
-    padding: 30px 20px;
-    border-radius: 5px;
-    cursor: pointer;
     transition: 0.4s;
+    border-radius: 5px;
+    background: linear-gradient(145deg, #ffffff, #0dcaf0);
+    box-shadow: 28px 28px 45px #d4d4d4, -28px -28px 45px #ffffff;
+    display: flow-root;
+    padding: 0 36px 38px;
+    padding-top: 23px;
+    margin: 130px 0 30px;
+    transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
   }
   .category__img img {
     display: block;

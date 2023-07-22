@@ -20,7 +20,9 @@ const Contact = () => {
               <span class="fas fa-phone"></span>
               <input type="number" placeholder="number" />
             </div>
-            <input type="submit" value="contact now" class="btn" />
+            <button type="submit" className="addTOCart__btn">
+              Contact
+            </button>
           </form>
         </div>
       </section>

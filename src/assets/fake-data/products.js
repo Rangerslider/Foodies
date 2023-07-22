@@ -27,13 +27,13 @@ import product_07_image_01 from "../pic/1.png";
 import product_07_image_02 from "../pic/2.png";
 import product_07_image_03 from "../pic/6.png";
 
-import product_08_image_01 from "../pic/3.png";
-import product_08_image_02 from "../pic/bt4.jpg";
-import product_08_image_03 from "../pic/bt1.jpg";
+import product_08_image_01 from "../pic/sushi.png";
+import product_08_image_02 from "../images/chicken2.png";
+import product_08_image_03 from "../images/chicken3.png";
 
 import product_09_image_01 from "../pic/4.png";
 import product_09_image_02 from "../pic/3.png";
-import product_09_image_03 from "../pic/5.png";
+import product_09_image_03 from "../images/p-1.png";
 
 
 const products = [
@@ -51,7 +51,7 @@ const products = [
 
   {
     id: "02",
-    title: "Thai Pasta",
+    title: "Shushi",
     price: 24.0,
     image01: product_08_image_01,
     image02: product_08_image_02,

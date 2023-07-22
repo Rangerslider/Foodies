@@ -131,11 +131,15 @@ transform: scale(1.03);
   width: 100px;
   height: 42px;
   border: none;
-  border-radius: 10px;
+  border-radius: 20px;
   color: #ffffff;
   transition: 0.3s;
   background: linear-gradient(145deg, #61dafb, #61dafb);
-  box-shadow: inset 4px 4px 8px #4297af, inset -4px -4px 8px #61dafb96
+  box-shadow: inset 4px 4px 8px #4297af, inset -4px -4px 8px #61dafb96;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 
 @media only screen and (max-width: 992px) {

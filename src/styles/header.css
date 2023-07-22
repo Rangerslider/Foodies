@@ -8,7 +8,7 @@
     text-align: left;
   }
   .logo img {
-    width: calc(100% - 85%);
+    width: calc(100% - 83%);
     object-fit: contain;
     margin-top: -40px;
   }
@@ -102,7 +102,7 @@
     left: 0;
     background: #fff;
     z-index: 99999;
-    box-shadow: 5px 5px 15px -5px #61dafb63 ;
+    box-shadow: 5px 5px 15px -5px #61dafb ;
   }
   
   @media only screen and (max-width: 992px) {

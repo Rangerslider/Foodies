@@ -14,7 +14,7 @@ const Footer = () => {
           <Col lg="3" md="4" sm="6">
             <div className=" footer__logo text-start">
               <img src={logo} alt="logo" />
-              <h5>Tasty Treat</h5>
+              <h5>Hungry Bite</h5>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Nesciunt pariatur accusamus
@@ -74,8 +74,7 @@ const Footer = () => {
           </Col>
           {/* social media links for contact details */}
           <Col lg="6" md="6">
-            <div className="social__links d-flex align-items-center gap-4 justify-content-end">
-              <p className="m-0">Follow: </p>
+            <div className="social__links">
               <span>
                 {" "}
                 <Link to="">
