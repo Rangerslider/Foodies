@@ -441,7 +441,7 @@ const Home = () => {
           <Row>
             <Col lg="6" md="6">
               <div className="testimonial ">
-                <h5 className="testimonial__subtitle mb-4">Testimonial</h5>
+                <h5 className="testimonial__subtitle mb-4">Review</h5>
                 <h2 className="testimonial__title mb-4">
                   What our <span>customers</span> are saying
                 </h2>

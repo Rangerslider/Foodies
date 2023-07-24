@@ -130,11 +130,18 @@
   
   .testimonial__subtitle {
     color: #61dafb;
+    text-transform: uppercase;
+    display: inline-block;
+    background: #f3f3f5;
+    box-shadow: 9px 9px 12px #e4e4e4, -9px -9px 12px #ffffff;
+    padding: 3px 20px;
+    border-radius: 60px;
+    font-size: 20px;
   }
   
   .testimonial__title span {
     color: #61dafb;
-  }
+}
   
   .testimonial__desc {
     color: #777;
