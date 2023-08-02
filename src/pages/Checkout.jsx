@@ -84,9 +84,7 @@ const Checkout = () => {
                     onChange={(e) => setEnterAddress(e.target.value)}
                   />
                 </div>
-                <button type="submit" className="addTOCart__btn">
-                  Payment
-                </button>
+                <button onClick={() => alert('Successfully Added Your Payment !')} type="submit" className="addTOCart__btn">  Payment </button>
               </form>
             </Col>
 

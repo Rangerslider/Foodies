@@ -45,9 +45,7 @@ const Register = () => {
                     ref={signupPasswordRef}
                   />
                 </div>
-                <button type="submit" className="addTOCart__btn">
-                  Sign Up
-                </button>
+                <button onClick={() => alert('Successfully Sign Up!')} type="submit" className="addTOCart__btn"> Sign Up </button>
               </form>
               <Link to="/login">Already have an account? Login</Link>
             </Col>

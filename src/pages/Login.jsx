@@ -36,9 +36,7 @@ const Login = () => {
                     ref={loginPasswordRef}
                   />
                 </div>
-                <button type="submit" className="addTOCart__btn">
-                  Login
-                </button>
+              <button onClick={() => alert('Successfully Login!')} type="submit" className="addTOCart__btn"> Login </button>
               </form>
               <Link to="/register">
                 Don't have an account? Create an account
